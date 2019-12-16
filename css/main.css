@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #b6b5b5; }
+
+.accordion {
+  background-color: #a6a2a2;
+  color: #6b4949;
+  cursor: pointer;
+  padding: 27px;
+  font-size: 24px;
+  text-align: right;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 1s; }
+
+.accordion-panel {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #fff;
+  padding: 27px 27px;
+  display: none;
+  overflow: hidden;
+  transition: max-height 2s  ease-out; }
+
+.active {
+  background-color: #694343;
+  color: #fff; }
+
+.accordion:hover {
+  background-color: #442d2d;
+  color: #fff; }
